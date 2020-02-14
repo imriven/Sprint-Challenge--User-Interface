@@ -265,3 +265,11 @@ h2.box-title {
      margin: 2%;
      border: none;
  }
+
+ /******* About *******/
+
+ .intro-pic {
+ object-fit: fill;
+ width: 100%; 
+}
+
