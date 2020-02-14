@@ -303,3 +303,20 @@ h2.box-title {
 .work-together {
     margin: 3% 0;
 }
+
+/*********Contact********/
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-image {
+    width: 48%;
+}
+
+.contact-form {
+    width: 48%;
+    background-color: #C3CDE6;
+    padding: 10%;
+}
