@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border:1px solid grey; */ 
+	 border:1px solid grey; */ 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -308,15 +308,30 @@ h2.box-title {
 
 .contact {
     display: flex;
-    justify-content: space-between;
+    align-items: stretch;
+    
+    
 }
 
 .contact-image {
-    width: 48%;
+    display: flex;
+    width: 50%;
 }
 
 .contact-form {
-    width: 48%;
+    width: 50%;
     background-color: #C3CDE6;
-    padding: 10%;
+    border-radius: 10px 0 10px 0;
+    border: 1px solid black;
+    padding: 5%;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 5% 0;
+}
+
+lable {
+    
 }
