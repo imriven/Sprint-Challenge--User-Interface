@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border:1px solid grey; 
+	border:1px solid grey; */ 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -169,65 +169,99 @@ a {
     justify-content: space-evenly;
 }
 
+/****** HOME ******/
+
+.intro-pic {
+    margin-bottom: 3%;
+}
 
 /* boxes */
+
+h2.box-title {
+    margin-bottom: 3%;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .box1 {
     background-color: teal;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box2 {
     background-color: gold;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box3 {
     background-color: cadetblue;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box4 {
     background-color: coral;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box5 {
     background-color: crimson;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box6 {
     background-color: forestgreen;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box7 {
     background-color: darkorchid;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box8 {
     background-color: hotpink;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
 }
 
  .box9 {
     background-color: indigo;
     color: white;
     padding: 5%;
+    margin: 2%;
+    border: none;
  }
 
  .box10 {
      background-color: dodgerblue;
      color: white;
      padding: 5%;
+     margin: 2%;
+     border: none;
  }
